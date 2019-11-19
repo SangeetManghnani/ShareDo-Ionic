@@ -1,8 +1,85 @@
 <ion-content>
     <ion-grid class="home-page-content">
-        <ion-col class="top-content">
-            <h4>Hello, Sangeet</h4>
-            <p>You have <span>3</span> remaining today!</p>
-        </ion-col>
+        <ion-row>
+            <ion-col class="top-content">
+                <h4>Hello, Sangeet</h4>
+                <p>You have <span>3</span> remaining <br>tasks today!</p>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="mid-content">
+                <ion-slides>
+                    <ion-slide>
+                        <ion-card class="todo-card" (click)="openTaskPage()">
+                            <ion-card-header>
+                                Today
+                            </ion-card-header>
+                            <ion-card-content>
+                                <ion-list>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                </ion-list>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-slide>
+                    <ion-slide>
+                        <ion-card class="todo-card ">
+                            <ion-card-header>
+                                Tomorrow
+                            </ion-card-header>
+                            <ion-card-content>
+                                <ion-list>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                </ion-list>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-slide>
+                    <ion-slide>
+                        <ion-card class="todo-card ">
+                            <ion-card-header>
+                                Aug 12, 2019
+                            </ion-card-header>
+                            <ion-card-content>
+                                <ion-list>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                    <ion-item>
+                                        <ion-label>Pokémon Yellow</ion-label>
+                                    </ion-item>
+                                </ion-list>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-slide>
+                </ion-slides>
+            </ion-col>
+        </ion-row>
     </ion-grid>
 </ion-content>
